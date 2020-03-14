@@ -3,4 +3,4 @@ Decided I should be doing some non-Unity programming as well. I'm going to creat
 
 V2 Update:
 
-Experimented a bit. Changed things up. Upon doing this simple task, I've come to realize how trash my old Single User Dungeon is, but I'm not particularly interest in revisiting it in C# with a better head on my shoulders. Perhaps I should one day? But I have Kerouac on the mind and I'm set on doing something with that. What will happen?!
+Experimented a bit. Changed things up. Upon doing this simple task, I've come to realize how trash my old Single User Dungeon is, but I'm not particularly interested in revisiting it in C# with a better head on my shoulders. Perhaps I should one day? But I have Kerouac on the mind and I'm set on doing something with that. What will happen?!
