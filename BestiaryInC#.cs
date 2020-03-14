@@ -9,7 +9,6 @@ namespace Official_Bestiary
         {
             Hello();
             SwitchCase();
-            
         }
 
         static void Hello()
