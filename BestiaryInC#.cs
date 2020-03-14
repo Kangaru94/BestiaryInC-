@@ -1,13 +1,15 @@
-﻿using System;
+using System;
+using System.Media;
 
-namespace Console_Bestiary
+namespace Official_Bestiary
 {
     class Program
     {
         static void Main()
         {
             Hello();
-            switchCase();
+            SwitchCase();
+            
         }
 
         static void Hello()
@@ -15,28 +17,34 @@ namespace Console_Bestiary
             Console.WriteLine("Hello World!");
         }
 
-        static void switchCase()
+        static void SwitchCase()
         {
             //string choice = "A";
             string choice = Console.ReadLine();
-
-            string chosen = " ";
 
             switch (choice)
             {
                 case "A":
                 case "a":
-                    chosen = "You chose to attack";
+                    ChoiceA();
                     break;
 
                 case "B":
                 case "b":
-                    chosen = "You chose to block";
+                    ChoiceB();
                     break;
             }
 
-            Console.WriteLine(chosen);
-            
+        }
+
+        static void ChoiceA()
+        {
+            Console.WriteLine("Chose to attack");
+        }
+
+        static void ChoiceB()
+        {
+            Console.WriteLine("Chose to block");
         }
     }
 }
